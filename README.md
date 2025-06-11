@@ -323,10 +323,12 @@ docker images
 Output 
 
 ```
-REPOSITORY                         TAG       IMAGE ID       CREATED          SIZE
-7Chethan007/my-first-docker-image  latest    960d37536dcd   26 seconds ago   467MB
-ubuntu                             latest    58db3edaf2be   13 days ago      77.8MB
-hello-world                        latest    feb5d9fea6a5   16 months ago    13.3kB
+REPOSITORY                        TAG                 IMAGE ID       CREATED         SIZE
+7chethan007/docker-zero-to-hero   first-docker-file   d6abe4d03224   6 minutes ago   793MB
+ubuntu                            latest              6015f66923d7   6 weeks ago     117MB
+nginx                             latest              fb39280b7b9e   7 weeks ago     279MB
+hello-world                       latest              940c619fbd41   4 months ago    20.4kB
+mongo                             3.4                 d314f7eca9d3   5 years ago     615MB
 ```
 
 ### Run your First Docker Container
@@ -346,7 +348,7 @@ Hello World
 ### Push the Image to DockerHub and share it with the world
 
 ```
-docker push 7Chethan007/my-first-docker-image
+docker push 7chethan007/docker-zero-to-hero:first-docker-file
 ```
 
 Output
