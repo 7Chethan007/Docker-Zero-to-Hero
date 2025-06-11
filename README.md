@@ -255,8 +255,8 @@ This message shows that your installation appears to be working correctly.
 ### Clone this repository and move to example folder
 
 ```
-git clone https://github.com/iam-veeramalla/Docker-Zero-to-Hero
-cd  examples
+git clone [https://github.com/iam-veeramalla/Docker-Zero-to-Hero](https://github.com/7Chethan007/Docker-Zero-to-Hero
+cd  examples/first-docker-file
 ```
 
 ### Login to Docker [Create an account with https://hub.docker.com/]
@@ -281,7 +281,7 @@ Login Succeeded
 You need to change the username accoringly in the below command
 
 ```
-docker build -t abhishekf5/my-first-docker-image:latest .
+docker buildx build -t 7chethan007/docker-zero-to-hero:first-docker-file .
 ```
 
 Output of the above command
@@ -324,7 +324,7 @@ Output
 
 ```
 REPOSITORY                         TAG       IMAGE ID       CREATED          SIZE
-abhishekf5/my-first-docker-image   latest    960d37536dcd   26 seconds ago   467MB
+7Chethan007/my-first-docker-image  latest    960d37536dcd   26 seconds ago   467MB
 ubuntu                             latest    58db3edaf2be   13 days ago      77.8MB
 hello-world                        latest    feb5d9fea6a5   16 months ago    13.3kB
 ```
@@ -332,7 +332,9 @@ hello-world                        latest    feb5d9fea6a5   16 months ago    13.
 ### Run your First Docker Container
 
 ```
-docker run -it abhishekf5/my-first-docker-image
+docker run -it 7chethan007/docker-zero-to-hero
+or
+docker run it <Image_ID>
 ```
 
 Output
@@ -344,7 +346,7 @@ Hello World
 ### Push the Image to DockerHub and share it with the world
 
 ```
-docker push abhishekf5/my-first-docker-image
+docker push 7Chethan007/my-first-docker-image
 ```
 
 Output
